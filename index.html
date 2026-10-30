@@ -43,8 +43,8 @@
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </nav>
-      
-      <div class="nav-actions">
+                  <div class="nav-actions">
+        
         <a href="#contact" class="btn btn-primary">Hire Me</a>
       </div>
     </div>
@@ -114,8 +114,6 @@
           <div class="skill-card"><i class="ri-css3-fill"></i><h4>CSS3</h4></div>
           <div class="skill-card"><i class="ri-javascript-fill"></i><h4>JavaScript</h4></div>
           <div class="skill-card"><i class="ri-smartphone-line"></i><h4>Responsive Design</h4></div>
-          <div class="skill-card"><i class="ri-video-line"></i><h4>Video Editing</h4></div>
-          <div class="skill-card"><i class="ri-palette-line"></i><h4>Branding</h4></div>
         </div>
       </div>
     </section>
@@ -171,24 +169,79 @@
         </div>
       </div>
     </section>
+       
+              <!-- Testimonials Section -->
+    <section class="section" id="testimonials">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">CLIENT FEEDBACK</span>
+          <h2>What Clients <span>Say</span></h2>
+        </div>
+        <div class="testimonial-grid reveal">
+          <!-- Testimonial 1: Real Client -->
+          <div class="testimonial-card" style="max-width: 700px; margin: 0 auto;">
+            <div class="quote-icon">❝</div>
+            <p>"Shaurya built our website exactly how we wanted. He was patient, professional, and delivered on time. Highly recommended for local businesses!"</p>
+            <div class="client-info">
+              <div class="client-avatar">PV</div>
+              <div>
+                <strong>Prakash Vijay</strong>
+                <small>Prakash Vijay Nutrition Center, Bareilly</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <!-- Contact Section -->
+        <!-- Contact Section -->
     <section class="section" id="contact">
       <div class="container contact-container reveal">
         <div class="contact-text">
           <span class="eyebrow">GET IN TOUCH</span>
           <h2>Let's build something <span>great together.</span></h2>
           <p>I'm currently available for freelance projects. Whether you need a website, video edit, or branding help — feel free to reach out.</p>
+          <div class="contact-links" style="margin-top: 30px;">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sg12292010@gmail.com" target="_blank" class="contact-item">
+              <i class="ri-mail-line"></i>
+              <span>sg12292010@gmail.com</span>
+            </a>
+            <a href="https://wa.me/919058112905" target="_blank" class="contact-item">
+              <i class="ri-whatsapp-line"></i>
+              <span>+91 9058112905</span>
+            </a>
+          </div>
         </div>
-        <div class="contact-links">
-          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sg12292010@gmail.com" target="_blank" class="contact-item">
-            <i class="ri-mail-line"></i>
-            <span>sg12292010@gmail.com</span>
-          </a>
-          <a href="https://wa.me/919058112905" target="_blank" class="contact-item">
-            <i class="ri-whatsapp-line"></i>
-            <span>+91 9058112905</span>
-          </a>
+        
+        <!-- Contact Form -->
+        <div class="contact-form-container">
+          <form id="contact-form" class="contact-form">
+                    <!-- Contact Form (WhatsApp) -->
+        <div class="contact-form-container">
+          <form id="contact-form" class="contact-form">
+            <h3>Send a Message</h3>
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+              <label for="service">What do you need?</label>
+              <select id="service" name="service" required>
+                <option value="" disabled selected>Select a service</option>
+                <option value="Website Design">Website Design</option>
+                <option value="Web Development">Web Development</option>
+                
+                
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Send on WhatsApp</button>
+            <p class="form-note" id="form-feedback" style="margin-top: 12px; font-size: 13px; color: var(--text-muted); text-align: center;"></p>
+          </form>
         </div>
       </div>
     </section>
